@@ -1,0 +1,212 @@
+/* ========== BASE STYLES ========== */
+body {
+	background: #0D0D0D;
+	color: #FFFFFF;
+}
+
+header {
+	height: 800px;
+}
+
+#portfolio {
+	height: 1550px;
+}
+
+#about {
+	height: 550px;
+}
+
+#contact {
+	height: 400px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #FD2949;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 300;
+	padding: 20px 0;
+}
+
+h3 {
+	font-family: 'Spectral', serif;
+	font-weight: 500; 
+	font-size: 24px;
+}
+
+p {
+	font-family: 'Spectral', serif;
+	font-weight: 200;
+	font-size: 24px;
+}
+
+
+/* ========== GRID ========== */
+.full-width {
+	margin: 0 auto;
+	overflow: auto;
+	width: 1400px;
+}
+
+.half-width {
+	float: left;
+	width: 700px;
+}
+
+.third-width {
+	float: left;
+	width: 33%;
+}
+
+/* ==========HEADER========== */
+h1 {
+	font-size: 24px;
+	text-transform: lowercase;
+}
+
+nav {
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	color: #FFFFFF;
+	font-size: 24px;
+	padding-left: 45px; 
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+header {
+    background: url('../img/sumudu2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+header h2 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #0D0D0D;
+	font-size: 72px;
+	text-transform: lowercase;
+	padding-top: 425px;
+	font-weight: 400;
+}
+
+header h2 span {
+	color: #394CC2;
+	font-weight: 400;
+}
+
+/* ========== PORTFOLIO STYLES ========== */
+
+#portfolio a:link {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#portfolio a:visited {
+	color: #FFFFFF;
+}
+
+#portfolio img {
+ 	border: 1px solid #394CC2;
+ }
+
+.work-example {
+	overflow: auto;
+}  
+
+#rogue #recipe .screenshot {
+	float: left;
+	height: 465px;
+	width: 600px;
+	padding: 0px 50px;
+}
+
+.description {
+	background: #0D0D0D;
+	box-sizing: border-box;
+	float: left;
+	height: 465px;
+	padding: 0px 35px;
+	width: 600px;
+}
+
+#jubilee .description {
+	text-align: right;
+}
+
+#jubilee .screenshot {
+	padding-left: 100px;
+}
+
+
+
+/* ========== ABOUT STYLES ========== */
+
+#about {
+    background: url('../img/servicescape.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+
+#about h3 {
+	color: #0D0D0D; 
+}
+
+#about p {
+	color: #0D0D0D;
+}
+
+/* ========== CONTACT STYLES ========== */
+
+
+#contact .third-width {
+	text-align: center;
+}
+
+#contact h3 {
+	font-weight: 700;
+}
+
+#contact a {    
+    color: #FFFFFF;    
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+     padding-top: 10px;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
+
+#contact p {
+	color: #FFFFFF;
+}
+
+footer {
+	font-size: 18px;
+	font-weight: 200;
+	text-align: center;
+}
+
+footer p {
+	font-size: 14px;
+}
